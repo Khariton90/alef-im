@@ -50,7 +50,7 @@ const router = useRouter()
 const data = inject<PersonalData | undefined>('personalData', undefined)
 
 const handleSubmit = () => {
-	router.push('/preview')
+	router.push('/alef-im/preview')
 }
 </script>
 

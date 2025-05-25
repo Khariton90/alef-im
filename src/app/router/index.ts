@@ -4,11 +4,11 @@ import { PreviewPage } from '~/pages/PreviewPage'
 
 const routes = [
 	{
-		path: '/',
+		path: '/alef-im',
 		component: HomePage,
 	},
 	{
-		path: '/preview',
+		path: '/alef-im/preview',
 		component: PreviewPage,
 	},
 ]

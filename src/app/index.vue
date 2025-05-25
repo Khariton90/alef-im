@@ -19,8 +19,8 @@ import type { PersonalData } from '~/shared/model'
 const data = reactive<PersonalData>({
 	parent: {
 		id: new Date().getTime().toString(),
-		name: '',
-		age: 1,
+		name: 'Петр',
+		age: 99,
 	},
 	children: [],
 })

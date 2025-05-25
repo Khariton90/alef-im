@@ -2,7 +2,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header-wrapper">
-				<RouterLink to="/" class="logo">
+				<RouterLink to="/alef-im" class="logo">
 					<svg
 						width="93"
 						height="29"
@@ -97,10 +97,12 @@
 				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-item">
-							<RouterLink class="nav-link" to="/">Форма</RouterLink>
+							<RouterLink class="nav-link" to="/alef-im">Форма</RouterLink>
 						</li>
 						<li class="nav-item">
-							<RouterLink class="nav-link" to="/preview">Превью</RouterLink>
+							<RouterLink class="nav-link" to="/alef-im/preview"
+								>Превью</RouterLink
+							>
 						</li>
 					</ul>
 				</nav>
